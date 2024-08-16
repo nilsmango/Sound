@@ -8,17 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var audioManager: AudioManager
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            SoundToyView(audioManager: audioManager)
+                .background(.gray.opacity(0.1))
+                .navigationTitle("Sound Toy")
         }
-        .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(audioManager: AudioManager())
 }

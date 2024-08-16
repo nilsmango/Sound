@@ -11,6 +11,31 @@
 		78FABC9C2C6F8BD1009BAD4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FABC9B2C6F8BD1009BAD4F /* ContentView.swift */; };
 		78FABC9E2C6F8BD2009BAD4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78FABC9D2C6F8BD2009BAD4F /* Assets.xcassets */; };
 		78FABCA22C6F8BD2009BAD4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78FABCA12C6F8BD2009BAD4F /* Preview Assets.xcassets */; };
+		78FABCA92C6F8C00009BAD4F /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FABCA82C6F8C00009BAD4F /* AudioManager.swift */; };
+		78FABCAC2C6F8C23009BAD4F /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 78FABCAB2C6F8C23009BAD4F /* AudioKit */; };
+		78FABCAF2C6F8C36009BAD4F /* SoundpipeAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 78FABCAE2C6F8C36009BAD4F /* SoundpipeAudioKit */; };
+		78FABCC92C6F8D38009BAD4F /* SoundToyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FABCC82C6F8D38009BAD4F /* SoundToyView.swift */; };
+		78FABCCA2C6F8DBE009BAD4F /* Kitchen Timer Normal.caf in Resources */ = {isa = PBXBuildFile; fileRef = 78FABCB42C6F8C88009BAD4F /* Kitchen Timer Normal.caf */; };
+		78FABCCB2C6F8DBE009BAD4F /* Gong 2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 78FABCB32C6F8C88009BAD4F /* Gong 2.caf */; };
+		78FABCCC2C6F8DBE009BAD4F /* Chimes 2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 78FABCBF2C6F8C89009BAD4F /* Chimes 2.caf */; };
+		78FABCCD2C6F8DBE009BAD4F /* Chimes 3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 78FABCB62C6F8C88009BAD4F /* Chimes 3.caf */; };
+		78FABCCE2C6F8DBE009BAD4F /* Basic Bells 2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 78FABCB92C6F8C88009BAD4F /* Basic Bells 2.caf */; };
+		78FABCCF2C6F8DBE009BAD4F /* Singing Bowl 1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 78FABCB52C6F8C88009BAD4F /* Singing Bowl 1.caf */; };
+		78FABCD02C6F8DBE009BAD4F /* Metallophone.caf in Resources */ = {isa = PBXBuildFile; fileRef = 78FABCBD2C6F8C89009BAD4F /* Metallophone.caf */; };
+		78FABCD12C6F8DBE009BAD4F /* 047.aif in Resources */ = {isa = PBXBuildFile; fileRef = 78FABCB22C6F8C81009BAD4F /* 047.aif */; };
+		78FABCD22C6F8DBE009BAD4F /* Singing Bowl 2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 78FABCBC2C6F8C89009BAD4F /* Singing Bowl 2.caf */; };
+		78FABCD32C6F8DBE009BAD4F /* Basic Bells 1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 78FABCB72C6F8C88009BAD4F /* Basic Bells 1.caf */; };
+		78FABCD42C6F8DBE009BAD4F /* Synth Bell.caf in Resources */ = {isa = PBXBuildFile; fileRef = 78FABCC02C6F8C89009BAD4F /* Synth Bell.caf */; };
+		78FABCD52C6F8DBE009BAD4F /* Gong 2b.caf in Resources */ = {isa = PBXBuildFile; fileRef = 78FABCC62C6F8C89009BAD4F /* Gong 2b.caf */; };
+		78FABCD62C6F8DBE009BAD4F /* Phonogeneli.aif in Resources */ = {isa = PBXBuildFile; fileRef = 78FABCC72C6F8C89009BAD4F /* Phonogeneli.aif */; };
+		78FABCD72C6F8DBE009BAD4F /* Singing Bowl 2b.caf in Resources */ = {isa = PBXBuildFile; fileRef = 78FABCC52C6F8C89009BAD4F /* Singing Bowl 2b.caf */; };
+		78FABCD82C6F8DBE009BAD4F /* 060.aif in Resources */ = {isa = PBXBuildFile; fileRef = 78FABCC32C6F8C89009BAD4F /* 060.aif */; };
+		78FABCD92C6F8DBE009BAD4F /* Chimes.caf in Resources */ = {isa = PBXBuildFile; fileRef = 78FABCBB2C6F8C88009BAD4F /* Chimes.caf */; };
+		78FABCDA2C6F8DBE009BAD4F /* Friendly End.caf in Resources */ = {isa = PBXBuildFile; fileRef = 78FABCB82C6F8C88009BAD4F /* Friendly End.caf */; };
+		78FABCDB2C6F8DBE009BAD4F /* Chimes 4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 78FABCC22C6F8C89009BAD4F /* Chimes 4.caf */; };
+		78FABCDC2C6F8DBE009BAD4F /* Basic Bells 3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 78FABCBA2C6F8C88009BAD4F /* Basic Bells 3.caf */; };
+		78FABCDD2C6F8DBE009BAD4F /* Dual Bowl.caf in Resources */ = {isa = PBXBuildFile; fileRef = 78FABCC42C6F8C89009BAD4F /* Dual Bowl.caf */; };
+		78FABCDE2C6F8DBE009BAD4F /* Friendly.caf in Resources */ = {isa = PBXBuildFile; fileRef = 78FABCC12C6F8C89009BAD4F /* Friendly.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +45,29 @@
 		78FABC9D2C6F8BD2009BAD4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78FABC9F2C6F8BD2009BAD4F /* Sound.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sound.entitlements; sourceTree = "<group>"; };
 		78FABCA12C6F8BD2009BAD4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		78FABCA82C6F8C00009BAD4F /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		78FABCB22C6F8C81009BAD4F /* 047.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = 047.aif; sourceTree = "<group>"; };
+		78FABCB32C6F8C88009BAD4F /* Gong 2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gong 2.caf"; sourceTree = "<group>"; };
+		78FABCB42C6F8C88009BAD4F /* Kitchen Timer Normal.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kitchen Timer Normal.caf"; sourceTree = "<group>"; };
+		78FABCB52C6F8C88009BAD4F /* Singing Bowl 1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Singing Bowl 1.caf"; sourceTree = "<group>"; };
+		78FABCB62C6F8C88009BAD4F /* Chimes 3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chimes 3.caf"; sourceTree = "<group>"; };
+		78FABCB72C6F8C88009BAD4F /* Basic Bells 1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Basic Bells 1.caf"; sourceTree = "<group>"; };
+		78FABCB82C6F8C88009BAD4F /* Friendly End.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Friendly End.caf"; sourceTree = "<group>"; };
+		78FABCB92C6F8C88009BAD4F /* Basic Bells 2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Basic Bells 2.caf"; sourceTree = "<group>"; };
+		78FABCBA2C6F8C88009BAD4F /* Basic Bells 3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Basic Bells 3.caf"; sourceTree = "<group>"; };
+		78FABCBB2C6F8C88009BAD4F /* Chimes.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chimes.caf; sourceTree = "<group>"; };
+		78FABCBC2C6F8C89009BAD4F /* Singing Bowl 2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Singing Bowl 2.caf"; sourceTree = "<group>"; };
+		78FABCBD2C6F8C89009BAD4F /* Metallophone.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Metallophone.caf; sourceTree = "<group>"; };
+		78FABCBF2C6F8C89009BAD4F /* Chimes 2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chimes 2.caf"; sourceTree = "<group>"; };
+		78FABCC02C6F8C89009BAD4F /* Synth Bell.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Synth Bell.caf"; sourceTree = "<group>"; };
+		78FABCC12C6F8C89009BAD4F /* Friendly.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Friendly.caf; sourceTree = "<group>"; };
+		78FABCC22C6F8C89009BAD4F /* Chimes 4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chimes 4.caf"; sourceTree = "<group>"; };
+		78FABCC32C6F8C89009BAD4F /* 060.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = 060.aif; sourceTree = "<group>"; };
+		78FABCC42C6F8C89009BAD4F /* Dual Bowl.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dual Bowl.caf"; sourceTree = "<group>"; };
+		78FABCC52C6F8C89009BAD4F /* Singing Bowl 2b.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Singing Bowl 2b.caf"; sourceTree = "<group>"; };
+		78FABCC62C6F8C89009BAD4F /* Gong 2b.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gong 2b.caf"; sourceTree = "<group>"; };
+		78FABCC72C6F8C89009BAD4F /* Phonogeneli.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Phonogeneli.aif; sourceTree = "<group>"; };
+		78FABCC82C6F8D38009BAD4F /* SoundToyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundToyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78FABCAF2C6F8C36009BAD4F /* SoundpipeAudioKit in Frameworks */,
+				78FABCAC2C6F8C23009BAD4F /* AudioKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,8 +104,11 @@
 			children = (
 				78FABC992C6F8BD1009BAD4F /* SoundApp.swift */,
 				78FABC9B2C6F8BD1009BAD4F /* ContentView.swift */,
+				78FABCC82C6F8D38009BAD4F /* SoundToyView.swift */,
+				78FABCB02C6F8C4D009BAD4F /* Model */,
 				78FABC9D2C6F8BD2009BAD4F /* Assets.xcassets */,
 				78FABC9F2C6F8BD2009BAD4F /* Sound.entitlements */,
+				78FABCB12C6F8C76009BAD4F /* Sounds */,
 				78FABCA02C6F8BD2009BAD4F /* Preview Content */,
 			);
 			path = Sound;
@@ -67,6 +120,42 @@
 				78FABCA12C6F8BD2009BAD4F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		78FABCB02C6F8C4D009BAD4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78FABCA82C6F8C00009BAD4F /* AudioManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78FABCB12C6F8C76009BAD4F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				78FABCB22C6F8C81009BAD4F /* 047.aif */,
+				78FABCC32C6F8C89009BAD4F /* 060.aif */,
+				78FABCB72C6F8C88009BAD4F /* Basic Bells 1.caf */,
+				78FABCB92C6F8C88009BAD4F /* Basic Bells 2.caf */,
+				78FABCBA2C6F8C88009BAD4F /* Basic Bells 3.caf */,
+				78FABCBF2C6F8C89009BAD4F /* Chimes 2.caf */,
+				78FABCB62C6F8C88009BAD4F /* Chimes 3.caf */,
+				78FABCC22C6F8C89009BAD4F /* Chimes 4.caf */,
+				78FABCBB2C6F8C88009BAD4F /* Chimes.caf */,
+				78FABCC42C6F8C89009BAD4F /* Dual Bowl.caf */,
+				78FABCB82C6F8C88009BAD4F /* Friendly End.caf */,
+				78FABCC12C6F8C89009BAD4F /* Friendly.caf */,
+				78FABCB32C6F8C88009BAD4F /* Gong 2.caf */,
+				78FABCC62C6F8C89009BAD4F /* Gong 2b.caf */,
+				78FABCB42C6F8C88009BAD4F /* Kitchen Timer Normal.caf */,
+				78FABCBD2C6F8C89009BAD4F /* Metallophone.caf */,
+				78FABCC72C6F8C89009BAD4F /* Phonogeneli.aif */,
+				78FABCB52C6F8C88009BAD4F /* Singing Bowl 1.caf */,
+				78FABCBC2C6F8C89009BAD4F /* Singing Bowl 2.caf */,
+				78FABCC52C6F8C89009BAD4F /* Singing Bowl 2b.caf */,
+				78FABCC02C6F8C89009BAD4F /* Synth Bell.caf */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +174,10 @@
 			dependencies = (
 			);
 			name = Sound;
+			packageProductDependencies = (
+				78FABCAB2C6F8C23009BAD4F /* AudioKit */,
+				78FABCAE2C6F8C36009BAD4F /* SoundpipeAudioKit */,
+			);
 			productName = Sound;
 			productReference = 78FABC962C6F8BD1009BAD4F /* Sound.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +206,10 @@
 				Base,
 			);
 			mainGroup = 78FABC8D2C6F8BD1009BAD4F;
+			packageReferences = (
+				78FABCAA2C6F8C23009BAD4F /* XCRemoteSwiftPackageReference "AudioKit" */,
+				78FABCAD2C6F8C36009BAD4F /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */,
+			);
 			productRefGroup = 78FABC972C6F8BD1009BAD4F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +224,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78FABCCA2C6F8DBE009BAD4F /* Kitchen Timer Normal.caf in Resources */,
+				78FABCCB2C6F8DBE009BAD4F /* Gong 2.caf in Resources */,
+				78FABCCC2C6F8DBE009BAD4F /* Chimes 2.caf in Resources */,
+				78FABCCD2C6F8DBE009BAD4F /* Chimes 3.caf in Resources */,
+				78FABCCE2C6F8DBE009BAD4F /* Basic Bells 2.caf in Resources */,
+				78FABCCF2C6F8DBE009BAD4F /* Singing Bowl 1.caf in Resources */,
+				78FABCD02C6F8DBE009BAD4F /* Metallophone.caf in Resources */,
+				78FABCD12C6F8DBE009BAD4F /* 047.aif in Resources */,
+				78FABCD22C6F8DBE009BAD4F /* Singing Bowl 2.caf in Resources */,
+				78FABCD32C6F8DBE009BAD4F /* Basic Bells 1.caf in Resources */,
+				78FABCD42C6F8DBE009BAD4F /* Synth Bell.caf in Resources */,
+				78FABCD52C6F8DBE009BAD4F /* Gong 2b.caf in Resources */,
+				78FABCD62C6F8DBE009BAD4F /* Phonogeneli.aif in Resources */,
+				78FABCD72C6F8DBE009BAD4F /* Singing Bowl 2b.caf in Resources */,
+				78FABCD82C6F8DBE009BAD4F /* 060.aif in Resources */,
+				78FABCD92C6F8DBE009BAD4F /* Chimes.caf in Resources */,
+				78FABCDA2C6F8DBE009BAD4F /* Friendly End.caf in Resources */,
+				78FABCDB2C6F8DBE009BAD4F /* Chimes 4.caf in Resources */,
+				78FABCDC2C6F8DBE009BAD4F /* Basic Bells 3.caf in Resources */,
+				78FABCDD2C6F8DBE009BAD4F /* Dual Bowl.caf in Resources */,
+				78FABCDE2C6F8DBE009BAD4F /* Friendly.caf in Resources */,
 				78FABCA22C6F8BD2009BAD4F /* Preview Assets.xcassets in Resources */,
 				78FABC9E2C6F8BD2009BAD4F /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +257,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78FABCA92C6F8C00009BAD4F /* AudioManager.swift in Sources */,
+				78FABCC92C6F8D38009BAD4F /* SoundToyView.swift in Sources */,
 				78FABC9C2C6F8BD1009BAD4F /* ContentView.swift in Sources */,
 				78FABC9A2C6F8BD1009BAD4F /* SoundApp.swift in Sources */,
 			);
@@ -274,6 +394,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "7III Sound";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -288,7 +409,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.project7III.Sound;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -312,6 +433,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "7III Sound";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -326,7 +448,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.project7III.Sound;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -359,6 +481,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		78FABCAA2C6F8C23009BAD4F /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.4;
+			};
+		};
+		78FABCAD2C6F8C36009BAD4F /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/SoundpipeAudioKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		78FABCAB2C6F8C23009BAD4F /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78FABCAA2C6F8C23009BAD4F /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+		78FABCAE2C6F8C36009BAD4F /* SoundpipeAudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78FABCAD2C6F8C36009BAD4F /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */;
+			productName = SoundpipeAudioKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 78FABC8E2C6F8BD1009BAD4F /* Project object */;
 }
